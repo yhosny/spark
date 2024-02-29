@@ -734,6 +734,7 @@ class XmlTokenizer(
         canSelfClose = false
       }
 
+
       // Still matching a start tag?
       if (c == startTag(si)) {
         // Still also matching an end tag?
